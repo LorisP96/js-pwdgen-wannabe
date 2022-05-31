@@ -12,3 +12,5 @@ let userMessage = userName + userSurname + userColor + '21'
 
 console.log(userMessage);
 
+document.getElementById('result').innerHTML = userMessage;
+
