@@ -1,5 +1,14 @@
-// chiedo all'utente il nome
+// nome
 let userName = prompt ('Scrivi il tuo nome')
 
-// chiedo il cognome
+// cognome
 let userSurname = prompt ('Scrivi il tuo cognome')
+
+// colore preferito
+let userColor = prompt ('Scrivi il tuo colore preferito')
+
+// fine
+let userMessage = userName + userSurname + userColor + '21'
+
+console.log(userMessage);
+
